@@ -20,17 +20,20 @@
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
     <gearHealthRange>
-      <min>0.2</min>
+      <min>0.5</min>
       <max>2.0</max>
     </gearHealthRange>
     <apparelMoney>
-      <min>300</min>
-      <max>900</max>
+      <min>500</min>
+      <max>1000</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelTags>
+        <li>Pirate</li>
+    </apparelTags>
     <weaponMoney>
       <min>0</min>
-      <max>250</max>
+      <max>500</max>
     </weaponMoney>
     <weaponTags>
       <li>PirateGun</li>
@@ -134,17 +137,22 @@
       <min>0.5</min>
       <max>1.8</max>
     </gearHealthRange>
+    <itemQuality>Poor</itemQuality>
     <apparelMoney>
-      <min>300</min>
-      <max>900</max>
+      <min>600</min>
+      <max>1200</max>
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelTags>
+      <li>Pirate</li>
+    </apparelTags>
     <weaponMoney>
-      <min>200</min>
-      <max>600</max>
+      <min>400</min>
+      <max>800</max>
     </weaponMoney>
     <weaponTags>
       <li>PirateMelee</li>
+      <li>PirateGun</li>
     </weaponTags>
     <inventoryOptions>
       <skipChance>0.95</skipChance>
