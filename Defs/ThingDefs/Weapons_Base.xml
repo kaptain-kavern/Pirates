@@ -33,7 +33,7 @@
 <!-- ====================== Ranged =============================-->
 
 	<ThingDef Name="BaseGun" Abstract="True" ParentName="BaseWeapon">
-		<techLevel>Industrial</techLevel>
+		<techLevel>Medieval</techLevel>
 		<smeltable>true</smeltable>
 		<thingCategories>
       		<li>WeaponsRanged</li>
@@ -78,7 +78,7 @@
 		<techLevel>Medieval</techLevel>
 		<smeltable>true</smeltable>
 		<weaponTags>
-			<li>Melee</li>
+			<li>PirateMelee</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsMelee</li>
