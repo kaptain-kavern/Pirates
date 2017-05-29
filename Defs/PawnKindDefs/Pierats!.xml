@@ -3,7 +3,7 @@
 
   <PawnKindDef Name="PieratsBase" Abstract="True">
     <race>Human</race>
-    <defaultFactionType>Pirate</defaultFactionType>
+    <defaultFactionType>Buccaneers</defaultFactionType>
     <backstoryCategory>Raider</backstoryCategory>
     <baseRecruitDifficulty>0.65</baseRecruitDifficulty>
     <chemicalAddictionChance>0.10</chemicalAddictionChance>
