@@ -1,19 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="ThingBaseElephant">
-    <defName>Tradophant</defName>
-    <description>INSERT DESCRIPTION HERE</description>
-    <label>pack elephant</label>
-    <race>
-      <packAnimal>true</packAnimal>
-    </race>
-  </ThingDef>
-
   <PawnKindDef ParentName="AnimalKindBaseElephant">
     <defName>Tradophant</defName>
     <label>pack elephant</label>
-    <race>Tradophant</race>
+    <race>Elephant</race>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>

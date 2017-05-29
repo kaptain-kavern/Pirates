@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-	<Operation Class="PatchOperationAttributeAdd"> <!-- "Elephant PackAnimal" -->
-		<xpath>/Defs/ThingDef[defName = "Elephant"]</xpath>
-		<attribute>Name</attribute>
-		<value>ThingBaseElephant</value>
+	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
+		<xpath>/Defs/ThingDef[defName = "Elephant"]/race</xpath>
+		<value>
+			<packAnimal>true</packAnimal>
+		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAttributeAdd"> <!-- "Elephant PackAnimal" -->
@@ -16,35 +17,35 @@
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
 		<value>
-			<li>Tradophant</li>
+			<li>Elephant</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>/Defs/BiomeDef[defName = "AridShrubland"]/allowedPackAnimals</xpath>
 		<value>
-			<li>Tradophant</li>
+			<li>Elephant</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>/Defs/BiomeDef[defName = "Desert"]/allowedPackAnimals</xpath>
 		<value>
-			<li>Tradophant</li>
+			<li>Elephant</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/allowedPackAnimals</xpath>
 		<value>
-			<li>Tradophant</li>
+			<li>Elephant</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd"> <!-- "Elephant PackAnimal" -->
 		<xpath>/Defs/BiomeDef[defName = "TemperateForest"]/allowedPackAnimals</xpath>
 		<value>
-			<li>Tradophant</li>
+			<li>Elephant</li>
 		</value>
 	</Operation>			
 
