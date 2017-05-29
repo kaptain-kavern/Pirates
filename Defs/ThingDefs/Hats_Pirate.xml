@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-    <ThingDef Name="HatBase" ParentName="ApparelBase" Abstract="True">
+  <ThingDef Name="HatBase" ParentName="ApparelBase" Abstract="True">
     <thingCategories>
       <li>Piraheadcategory</li>
     </thingCategories>
@@ -104,7 +104,6 @@
   </ThingDef>
 
 
-
   <ThingDef ParentName="HatBase">
     <defName>Apparello_Fancybrim</defName>
     <label>duellist's hat</label>
@@ -152,7 +151,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 
 
   <ThingDef ParentName="HatBase">
@@ -204,7 +202,6 @@
   </ThingDef>
 
 
-
   <ThingDef ParentName="HatBase">
     <defName>Apparello_voodoolady</defName>
     <label>Voodoo headwrap</label>
@@ -248,7 +245,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 
 
   <ThingDef ParentName="HatBase">
@@ -300,7 +296,6 @@
   </ThingDef>
 
 
-
   <ThingDef ParentName="HatBase">
     <defName>Apparello_pieband</defName>
     <label>bandana</label>
@@ -342,7 +337,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 
 
   <ThingDef ParentName="HatBase">
@@ -389,7 +383,6 @@
       </options>
     </colorGenerator>
   </ThingDef>
-
 
 
 </ThingDefs>
