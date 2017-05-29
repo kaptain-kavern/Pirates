@@ -3,7 +3,7 @@
 
   <FactionDef>
     <defName>Conquistadors</defName>
-    <label>outlander union</label>
+    <label>Conquistadors</label>
     <description>These flamboyant explorers of the world love to trade and search for long lost treasures</description>
     <pawnsPlural>Conquistadors</pawnsPlural>
     <baseSelectionWeight>1</baseSelectionWeight>
