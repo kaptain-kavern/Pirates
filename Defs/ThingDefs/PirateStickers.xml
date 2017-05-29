@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Rapier</defName>
+    <label>rapier</label>
+    <description>Pig sticker! Oink oink!</description>
+    <graphicData>
+      <texPath>PirateClashers/Rapier</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>50</costStuffCount>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>8</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Stab</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Sabre</defName>
+    <label>sabre</label>
+    <description>Curved swords.. curved. swords.</description>
+    <graphicData>
+      <texPath>PirateClashers/Sabre</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
+    <statBases>
+      <Mass>1.5</Mass>
+      <WorkToMake>40000</WorkToMake>
+      <MeleeWeapon_DamageAmount>17</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Cutlass</defName>
+    <label>cutlass</label>
+    <description>for cutting AND for carving! a multitool at it's best. </description>
+    <graphicData>
+      <texPath>PirateClashers/Cutlass</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>120</costStuffCount>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>0.8</Mass>
+      <MeleeWeapon_DamageAmount>11</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>1.66</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Cut</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Dirkenstone</defName>
+    <label>Dirk</label>
+    <description>And you thought the sabre had curves.</description>
+    <graphicData>
+      <texPath>PirateClashers/Dirk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractPistol</soundInteract>
+    <costStuffCount>25</costStuffCount>
+    <weaponTags>
+      <li>VoodooMelee</li>
+    </weaponTags>
+    <statBases>
+      <Mass>0.5</Mass>
+      <WorkToMake>20000</WorkToMake>
+      <MeleeWeapon_DamageAmount>5</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>0.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Stab</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+</ThingDefs>

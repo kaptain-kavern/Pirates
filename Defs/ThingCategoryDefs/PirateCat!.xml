@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+  <ThingCategoryDef>
+    <defName>Pirallocategory</defName>
+    <label>pirate</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Piraheadcategory</defName>
+    <label>pirate head wear</label>
+    <parent>Pirallocategory</parent>
+  </ThingCategoryDef>
+ 
+</ThingCategoryDefs>
+
+

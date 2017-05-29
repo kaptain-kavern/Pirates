@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Norballo_Stripants</defName>
+    <label>Striped trousers</label>
+    <description>striped trousers with suspenders to ensure they stay on even on the most wrathful winds. True Seaman fashion</description>
+    <graphicData>
+      <texPath>NorbalRep/Suspenders</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <statBases>
+      <Mass>0.5</Mass>
+      <WorkToMake>8000</WorkToMake>
+      <Insulation_Cold>-5</Insulation_Cold>
+    </statBases>
+    <costStuffCount>55</costStuffCount>
+    <generateCommonality>100</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <worngraphicPath>NorbalRep/Suspenders</worngraphicPath>
+      <layers>
+        <li>Middle</li>
+      </layers>      
+      <tags>
+      	<li>Pirate</li>
+      	<li>PirateMate</li>
+      	<li>PirateKing</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Norballo_Shirt</defName>
+    <label>mundane shirt</label>
+    <description>very mundane shirt. slightly warmer than most base clothing</description>
+    <graphicData>
+      <texPath>NorbalRep/ShirtBasic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>0.25</Mass>
+      <Insulation_Cold>-6</Insulation_Cold>
+      <Insulation_Heat>-2</Insulation_Heat>
+    </statBases>
+    <generateCommonality>100</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <worngraphicPath>NorbalRep/ShirtBasic</worngraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+    	<li>Pirate</li>
+    	<li>PirateMate</li>
+    	<li>PirateKing</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+</ThingDefs>
