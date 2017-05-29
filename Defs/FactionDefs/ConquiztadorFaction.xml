@@ -49,39 +49,39 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-          <Villager>50</Villager>
-          <TownGuard>250</TownGuard>
-          <TownCouncilman>250</TownCouncilman>
-          <GrenadierDestructive>50</GrenadierDestructive>
+          <ConquizVillager>50</ConquizVillager>
+          <ConquizGuard>250</ConquizGuard>
+          <ConquizCouncilman>250</ConquizCouncilman>
+          <!-- <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <MercenarySlasher>100</MercenarySlasher> -->
         </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <TownTrader>1</TownTrader>
+          <ConquizTrader>1</ConquizTrader>
         </traders>
         <carriers>
           <Muffalo>1</Muffalo>
           <Tradophant>1</Tradophant>
         </carriers>
         <guards>
-          <TownGuard>250</TownGuard>
-          <GrenadierDestructive>50</GrenadierDestructive>
+          <ConquizGuard>250</ConquizGuard>
+          <!-- <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <MercenarySlasher>100</MercenarySlasher> -->
         </guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-          <Villager>50</Villager>
-          <TownGuard>250</TownGuard>
-          <TownCouncilman>250</TownCouncilman>
-          <GrenadierDestructive>50</GrenadierDestructive>
+          <ConquizVillager>50</ConquizVillager>
+          <ConquizGuard>250</ConquizGuard>
+          <ConquizCouncilman>250</ConquizCouncilman>
+          <!-- <GrenadierDestructive>50</GrenadierDestructive>
           <MercenaryGunner>100</MercenaryGunner>
-          <MercenarySlasher>100</MercenarySlasher>
+          <MercenarySlasher>100</MercenarySlasher> -->
         </options>
       </li>
     </pawnGroupMakers>
