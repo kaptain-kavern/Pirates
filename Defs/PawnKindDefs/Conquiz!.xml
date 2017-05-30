@@ -10,7 +10,7 @@
     <backstoryCryptosleepCommonality>0.02</backstoryCryptosleepCommonality>
     <invNutrition>2.55</invNutrition>
     <apparelTags>
-      <li>Pirallocategory</li>
+      <li>ConquiZallocategory</li>
     </apparelTags>
   </PawnKindDef>
 
@@ -27,9 +27,9 @@
       <min>500</min>
       <max>1000</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>0.6</apparelAllowHeadwearChance>
     <apparelTags>
-        <li>Pirate</li>
+        <li>ConquiZallocategory</li>
     </apparelTags>
     <weaponMoney>
       <min>0</min>
@@ -37,7 +37,7 @@
     </weaponMoney>
     <weaponTags>
       <li>PirateGun</li>
-      <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
     </weaponTags>
     <inventoryOptions>
       <skipChance>0.75</skipChance>
@@ -79,13 +79,13 @@
     <apparelTags>
       <li>PirateKing</li>
     </apparelTags>
-    <apparelAllowHeadwearChance>0.7</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>2500</min>
       <max>5000</max>
     </weaponMoney>
     <weaponTags>
-      <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
       <li>PirateGun</li>
     </weaponTags>
     <techHediffsMoney>
@@ -142,16 +142,17 @@
       <min>600</min>
       <max>1200</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>0.8</apparelAllowHeadwearChance>
     <apparelTags>
-      <li>Pirate</li>
+      <li>ConquiZallocategory</li>
+      <li>ConquiZMate</li>
     </apparelTags>
     <weaponMoney>
       <min>400</min>
       <max>800</max>
     </weaponMoney>
     <weaponTags>
-      <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
       <li>PirateGun</li>
     </weaponTags>
     <inventoryOptions>

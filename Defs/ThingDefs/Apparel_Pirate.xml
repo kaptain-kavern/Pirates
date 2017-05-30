@@ -132,8 +132,7 @@
       <worngraphicPath>Jacket/Jacket</worngraphicPath>
       <layers>
         <li>Shell</li>
-      </layers>
-      
+      </layers>      
       <tags>
       	<li>Pirate</li>
       	<li>PirateMate</li>
@@ -153,7 +152,7 @@
 			</options>
 		</colorGenerator>
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelBase">
     <defName>Apparello_Cuirasso</defName>
     <label>Cuirass</label>
@@ -181,14 +180,14 @@
       <worngraphicPath>Cuirass/Cuirass</worngraphicPath>
       <layers>
         <li>Shell</li>
-      </layers>
-      
+      </layers>      
       <tags>
         <li>PirateMate</li>
       </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
-      </defaultOutfitTags> </apparel>
+      </defaultOutfitTags>
+    </apparel>
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>

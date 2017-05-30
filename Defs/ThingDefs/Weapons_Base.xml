@@ -78,7 +78,7 @@
 		<techLevel>Medieval</techLevel>
 		<smeltable>true</smeltable>
 		<weaponTags>
-			<li>PirateMelee</li>
+			<li>Melee</li>
 		</weaponTags>
 		<thingCategories>
 			<li>WeaponsMelee</li>
@@ -93,7 +93,7 @@
 	        <minQualityForArtistic>Excellent</minQualityForArtistic>
 	      </li>
 	    </comps>
-	    <recipeMaker>
+	    <!-- <recipeMaker>
 	      <workSpeedStat>SmithingSpeed</workSpeedStat>
 	      <workSkill>Crafting</workSkill>
 	      <effectWorking>Smith</effectWorking>
@@ -103,7 +103,7 @@
 	        <li>FueledSmithy</li>
 	      </recipeUsers>
 	      <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-	    </recipeMaker>
+	    </recipeMaker> -->
 	    <inspectorTabs>
 	      <li>ITab_Art</li>
 	    </inspectorTabs>

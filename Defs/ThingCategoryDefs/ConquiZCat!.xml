@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+  <ThingCategoryDef>
+    <defName>ConquiZallocategory</defName>
+    <label>ConquiZtador</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>ConquiZheadcategory</defName>
+    <label>conquiZtador head wear</label>
+    <parent>ConquiZallocategory</parent>
+  </ThingCategoryDef>
+ 
+</ThingCategoryDefs>
+
+

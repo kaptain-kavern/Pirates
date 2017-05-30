@@ -13,7 +13,7 @@
     <soundInteract>InteractPistol</soundInteract>
     <costStuffCount>50</costStuffCount>
     <weaponTags>
-      <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
     </weaponTags>
     <statBases>
       <Mass>1</Mass>
@@ -80,6 +80,7 @@
     <costStuffCount>120</costStuffCount>
     <weaponTags>
       <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
     </weaponTags>
     <statBases>
       <WorkToMake>6000</WorkToMake>
@@ -142,7 +143,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <weaponTags>
-      <li>PirateMelee</li>
+      <li>ConquiZMelee</li>
     </weaponTags>
     <costStuffCount>90</costStuffCount>
     <statBases>
@@ -205,6 +206,9 @@
       <texPath>PirateClashers/anchor02</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
     <costStuffCount>75</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake>
