@@ -133,4 +133,97 @@
     </verbs>
   </ThingDef>
 
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Halberd</defName>
+    <label>halberd</label>
+    <description>A halberd consists of an axe blade topped with a spike mounted on a long shaft. It always has a hook or thorn on the back side of the axe blade for grappling mounted combatants</description>
+    <graphicData>
+      <texPath>PirateClashers/Halberd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
+    <costStuffCount>90</costStuffCount>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>2</Mass>
+      <MeleeWeapon_DamageAmount>17</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.3</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-25</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Stab</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>PirateSlasher_Boathook</defName>
+    <label>boathook</label>
+    <description>A hook attached to a pole used for pulling or pushing boats, rafts, logs or other objects to or from the side of a boat.</description>
+    <graphicData>
+      <texPath>PirateClashers/boathook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <weaponTags>
+      <li>PirateMelee</li>
+    </weaponTags>
+    <costStuffCount>90</costStuffCount>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <Mass>1.5</Mass>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.1</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt">
+    <defName>PirateSlasher_Anchor</defName>
+    <label>anchor</label>
+    <description>A tool used to moor a vessel to the bottom of a sea or river to resist movement. Can also be used to crush people's head</description>
+    <graphicData>
+      <texPath>PirateClashers/anchor02</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>75</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>3</Mass>
+      <MeleeWeapon_DamageAmount>15</MeleeWeapon_DamageAmount>
+      <MeleeWeapon_Cooldown>2.8</MeleeWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+      </li>
+    </verbs>
+  </ThingDef>
+
 </ThingDefs>
